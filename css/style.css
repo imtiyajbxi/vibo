@@ -1,0 +1,515 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'work sans',sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.container{
+    width: 90%;
+    margin: auto;
+}
+/* Header Part */
+header{
+    background: url(../img/first-background.png)no-repeat center;
+    background-size: cover;
+    width: 100%;
+    float: left;
+}
+/* Main header */
+.main-header{
+    width: 100%;
+    float: left;
+}
+.logo-part{
+    float: left;
+    width: 50%;
+    padding-top: 20px;
+}
+.logo-part img{
+
+}
+.menu-part{
+    float: left;
+    width: 50%;
+    text-align: end;
+    padding-top: 20px;
+}
+.menu-part ul{
+    margin: 10px auto;
+}
+.menu-part li{
+    list-style: none;
+    display: inline-block;
+}
+.menu-part a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 25px;
+    color: white;
+}
+.hero{
+    width: 100%;
+    float: left;
+
+}
+.hero-w-part{
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+}
+.hero-w-part h1{
+    font-size: 40px;
+}
+.hero-w-part p{
+    padding-top: 25px;
+    font-size: 15px;
+
+}
+.hero-btn{
+    text-align: center;
+    padding-top: 35px;
+
+}
+.hero-button-one{
+    padding: 10px 25px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+.hero-button-two{
+    padding: 10px 25px ;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-left: 10px;
+}
+.hero-img{
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: -100px;
+}
+#services{
+    width: 100%;
+    margin: 0px;
+    float: left;
+    background: url(../img/white-background.png);
+    background-size: cover;
+    margin-top: -200px;
+    padding-bottom: 150px;
+}
+.service-img-part{
+    width: 50%;
+    float: left;
+    padding-top: 450px;
+    text-align: end;
+    padding-right: 200px;
+}
+.service-img-part img{
+    
+}
+.service-icons-part{
+    width: 50%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    padding-top: 400px;
+}
+.box-row-one{
+    float: left;
+}
+.troly-icon{
+    border: 1px solid #e7e7e9;
+    background-color: white;
+    box-shadow: 5px 5px 5px 2px #e7e7e9;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    left: 20px;
+    bottom: 40px;
+}
+.troly-icon img{
+    padding-top: 20px;
+}
+.troly-icon h1{
+    padding-top: 20px;
+}
+.troly-icon p{
+    padding-top: 15px;
+}
+.roller-icon{
+    border: 1px solid #e7e7e9;
+    background-color: white;
+    box-shadow: 5px 5px 5px 2px #e7e7e9;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    right: 30px;
+}
+.roller-icon img{
+    padding-top: 20px;
+}
+.roller-icon h1{
+    padding-top: 20px;
+}
+.roller-icon p{
+    padding-top: 15px;
+}
+.box-row-two{
+    float: left;
+}
+.massage-icon{
+    border: 1px solid #e7e7e9;
+    background-color: white;
+    box-shadow: 5px 5px 5px 2px #e7e7e9;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    left: 70px;
+    top: 20px;
+}
+.massage-icon img{
+    padding-top: 20px;
+}
+.massage-icon h1{
+    padding-top: 20px;
+}
+.massage-icon p{
+    padding-top: 15px;
+}
+.mobile-icon{
+    border: 1px solid #e7e7e9;
+    background-color: white;
+    box-shadow: 5px 5px 5px 2px #e7e7e9;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    top: 70px;
+    left: 30px;
+}
+.mobile-icon img{
+    padding-top: 20px;
+}
+.mobile-icon h1{
+    padding-top: 20px;
+}
+.mobile-icon p{
+    padding-top: 15px;
+}
+#marketing-one{
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.m-o-w-part{
+    width: 40%;
+    float: left;
+    padding-top: 150px;
+    text-align: end;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+
+.m-o-box-part{
+    width: 60%;
+    float: left;
+    padding-top: 150px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+}
+.m-o-w-part h2{
+    padding-top: 50px;
+    font-size: 30px;
+}
+.m-o-w-part p{
+    padding-top: 20px;
+}
+.marketing-button{
+    padding-top: 25px;
+}
+.marketing-btn{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: aqua;
+}
+.box-one{
+    width: 80%;
+    height: 55px;
+    padding: 5px;
+    border: 1px solid white;
+    box-shadow: 5px 5px 5px 2px gray;
+}
+.box-one h1{
+    margin-left: 5px;
+}
+.box-two{
+    width: 80%;
+    height: 85px;
+    padding: 5px;
+    margin-top: 30px;
+    border: 1px solid aqua;
+    background-color: aqua;
+    box-shadow: 5px 5px 5px 2px rgb(10, 211, 211);
+}
+.box-two h1{
+margin-left: 5px;
+}    
+.box-three{
+width: 80%;
+height: 55px;
+padding: 5px;
+margin-top: 30px;
+border: 1px solid white;
+box-shadow: 5px 5px 5px 2px gray;
+}
+.box-three h1{
+margin-left: 5px;
+}
+.box-four{
+width: 80%;
+height: 55px;
+padding: 5px;
+margin-top: 30px;
+border: 1px solid white;
+box-shadow: 5px 5px 5px 2px gray;
+}
+.box-four h1{
+margin-left: 5px;
+}
+#marketing-two{
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.m-t-img-part{
+    width: 40%;
+    float: left;
+    text-align: end;
+}
+.m-t-w-part{
+    width: 60%;
+    float: left;
+    padding-left: 250px;
+}
+.m-t-w-part h1{
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.m-t-w-part p{
+    padding-top: 30px;
+}
+#marketing-three{
+    width: 100%;
+    float: left;
+    background: url(../img/background-two.png) no-repeat;
+    background-size: cover;
+}
+.marketing-three-img{
+    width: 40%;
+    float: left;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    text-align: end;
+    position: relative;
+    right: 150px;
+}
+.marketing-three-w-part{
+    width: 60%;
+    padding-top: 350px;
+    position: relative;
+    left: 150px;
+}
+.marketing-three-w-part h1{
+    font-size: 30px;
+}
+.marketing-three-w-part p{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.marketing-three-button{
+    padding-top: 330px;
+    text-align: center;
+    margin-bottom: -20px;
+    position: relative;
+    left: 120px;
+}
+.three-btn{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #c8768f;
+    background-image: linear-gradient(#fd6c72,#f63a7d);
+}
+#f-one{
+    width: 100%;
+    height: 400px;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    margin: auto;
+    text-align: center;
+}
+.footer-part-one{
+    width: 100%;
+    height: 500px;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    margin: auto;
+}
+.company{
+    padding-top: 200px;
+    padding-left: 350px;
+    float: left;
+    text-align: center;
+    position: relative;
+    left: 60px;
+}
+.company a{
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #97a4be;
+}
+.devlopment{
+    padding-top: 200px;
+    padding-left: 50px;
+    float: left;
+    text-align: center;
+    position: relative;
+    left: 60px;
+}
+.devlopment a{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #97a4be;
+}
+.marketing{
+    align-self: start;
+    padding-top: 200px;
+    padding-left: 50px;
+    float: left;
+    text-align: center;
+    position: relative;
+    left: 60px;
+}
+.marketing a{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #97a4be;
+}
+.community{
+    padding-top: 200px;
+    padding-left: 50px;
+    float: left;
+    text-align: center;
+    position: relative;
+    left: 60px;
+}
+.community a{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #97a4be;
+}
+.info{
+    padding-top: 200px;
+    padding-left: 50px;
+    float: left;
+    text-align: center;
+    position: relative;
+    left: 60px;
+}
+.info a{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #97a4be;
+}
+#f-two{
+    width: 100%;
+    height: 250px;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
+.footer-w-part{
+    text-align: center;
+}
+.footer-w-part p{
+    padding-top: 20px;
+    color: #97a4be;
+}
+.footer-input{
+    text-align: center;
+    padding-top: 20px;
+}
+.c{
+    width: 30%;
+    height: 50px;
+    border: #f5f6fa;
+    background-color: #f5f6fa;
+}
+.c-one{
+    padding: 15px;
+    margin-left: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: aqua;
+    border: aqua;
+    box-shadow: 5px 5px 5px 2px #aafffa;
+}  
+#mf{
+    width: 100%;
+    height:100px;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    background-color: #223047;
+}
+.copyright-part{
+    float: left;
+    width: 50%;
+    padding-top: 40px;
+    color: aqua;
+    font-size: 9px;
+}
+.social-icons{
+    padding-top: 40px;
+    float: left;
+    text-align: end;
+    margin-left: 500px;
+
+}
+.facebook{
+    float: left;
+    margin-top: -5px;
+}
+.twitter{
+    float: left;
+    margin-left: 45px;
+}
+.dribble{
+    float: left;
+    margin-left: 45px;
+}
+.google{
+    float: left;
+    margin-left: 45px;
+}
+.youtube{
+    float: left;
+    margin-left: 45px;
+}
+
+
